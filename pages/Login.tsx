@@ -81,6 +81,9 @@ const Login: React.FC = () => {
           <p className="text-gray-500 mb-8">Sistem Absensi Digital Terpadu</p>
           <div className="text-sm text-gray-400">
             &copy; {new Date().getFullYear()} SDN 5 Bilato
+            <div className="text-xs mt-2 font-medium text-blue-500/80">
+               Created by Ariyanto Rahman
+            </div>
           </div>
         </div>
 

@@ -79,7 +79,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           </div>
         </div>
 
-        <nav className="p-4 space-y-1 overflow-y-auto h-[calc(100vh-220px)]">
+        <nav className="p-4 space-y-1 overflow-y-auto h-[calc(100vh-240px)]">
           {!isParent && <MenuItem to="/" icon={LayoutDashboard} label="Dashboard" />}
           
           {/* DATA SISWA: Muncul untuk Admin, Wali Kelas, dan Guru Mapel */}
@@ -145,6 +145,9 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             <LogOut size={18} />
             <span>Logout</span>
           </button>
+          <div className="mt-2 pt-2 border-t border-gray-100 text-[10px] text-center text-gray-400">
+             Created by Ariyanto Rahman
+          </div>
         </div>
       </aside>
 
